@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <div class="wraper">
+    <section id="site-header">
+      <div class="container">
+        <header class="site-header">
+          <div class="site-header__block">
+            <div class="site-header__logo">
+              <a href="#">
+                <img src="./img/myteam.svg" alt="logo">
+              </a>
+            </div>
+            <nav class="site-header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">about</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="nav__menu">
+            <button class="nav__btn"><i class='bx bx-menu'></i></button>
+          </div>
+          <a class="site-header__btn nav" href="#">contact us</a>
+        </header>
+      </div>
+    </section>
+    <main>
+      <section id="contact">
+        <div class="container">
+          <div class="contact">
+            <div class="contact__des">
+              <h2 class="contact__title">Contact</h2>
+              <p class="contact__mini-title">Ask us about</p>
+              <ul class="contact__list">
+                <li class="contact__item con-img1">The quality of our talent network</li>
+                <li class="contact__item con-img2">Usage & implementation of our software</li>
+                <li class="contact__item con-img3">How we help drive innovation</li>
+              </ul>
+            </div>
+            <form class="contact__form" method="POST">
+              <lable>
+                <input class="contact__input" autocomplete="off" required name="first-name" id="first-name" placeholder="Name" type="text">
+              </lable>
+              <lable>
+                <input class="contact__input" autocomplete="off" required name="email" id="email" placeholder="Email Address" type="email">
+              </lable>
+              <lable>
+                <input class="contact__input" autocomplete="off" required name="com-name" id="com-name" placeholder="Company Name" type="text">
+              </lable>
+              <lable>
+                <input class="contact__input" autocomplete="off" required name="title" id="title" placeholder="Title" type="text">
+              </lable>
+              <label>
+                <textarea class="contact__area" name="message" id="message" placeholder="Message" type="text" cols="30" rows="10"></textarea>
+              </label>
+              <button class="contact__btn" type="submit">submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div> 
+  <footer id="foter">
+    <div class="container">
+      <div class="foter">
+        <div class="foter__content">
+          <div class="foter__logos">
+            <div class="foter__logo">
+              <a href="#"><img src="./img/myteam.svg" alt="logo"></a>
+            </div>
+            <ul class="foter__list">
+              <li class="foter__item"><a class="foter__link" href="#">home</a></li>
+              <li class="foter__item"><a class="foter__link" href="#">about</a></li>
+            </ul>
+          </div>
+    
+          <div class="foter__des">
+            <p class="foter__inner-text">987  Hillcrest Lane </p>
+            <p class="foter__inner-text">Irvine, CA</p>
+            <a href="#"><address class="foter__inner-text">California 92714</address></a>
+            <a class="foter__inner-text foter__inner-link1" href="tel:9498337432">Call Us : 949-833-7432</a>
+          </div>
+        </div>
+      </div>
+      <div class="foter-contents">
+        <div class="foter__socials">
+          <ul class="foter__inre-list">
+            <li class="foter__inner-item"><a href="#"><img src="./img/fase.svg" alt=""></a></li>
+            <li class="foter__inner-item"><a href="#"><img src="./img/fase2.svg" alt=""></a></li>
+            <li class="foter__inner-item"><a href="#"><img src="./img/fase3.svg" alt=""></a></li>
+          </ul>
+          <p class="last__text">Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer> 
+</body>
+</html>
