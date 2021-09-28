@@ -266,7 +266,6 @@ footer {
   justify-content: space-between;
 }
 .delvering__item {
-  width: 350px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -554,14 +553,14 @@ footer {
     margin: 0 auto;
     font-size: 40px;
     line-height: 40px;
-    width: 349px;
+    width: 277px;
     margin-bottom: 18px;
   }
   .hero__text{
     margin: 0 auto;
     font-size: 15px;
     line-height: 28px;
-    width: 327px;
+    width: 311px;
   }
   /* build */
   .build__title{
