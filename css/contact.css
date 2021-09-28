@@ -351,6 +351,14 @@ p{
   .contact__list{
     width: 327px;
   }
+  #contact{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #014E56;
+    background-repeat: no-repeat;
+    background-image: url(''),url('../img/contact.svg');
+    background-position: left top 120px, right bottom -110px;
+  }
   .contact__form{
     width:327px;
   }
